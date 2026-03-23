@@ -1,5 +1,3 @@
-package Leetcode_003_March_2026;
-
 public class Delete_the_Middle_Node_of_a_Linked_List_Leetcode_2095 {
     public class ListNode {
         int val;
