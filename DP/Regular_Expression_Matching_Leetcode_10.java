@@ -15,8 +15,7 @@ public class Regular_Expression_Matching_Leetcode_10 {
                 return false;
             }
             if (i < 0 && j >= 0) {
-                if (p.charAt(j) == '*') {// agr star hoga toh 2 index piche jake phir check karenge agr abb star nhi hua
-                                         // toh false agr star hua toh process chlega duabara
+                if (p.charAt(j) == '*') {
                     return match(s, p, i, j - 2, dp);
                 }
                 return false;
@@ -32,12 +31,12 @@ public class Regular_Expression_Matching_Leetcode_10 {
             } else if (p.charAt(j) == '*') {
                 // Skip
                 boolean skip = match(s, p, i, j - 2, dp);
-                // Use when condition is satisfy
+                // Use
                 boolean use = false;
                 if (j > 0 && (p.charAt(j - 1) == s.charAt(i) || p.charAt(j - 1) == '.')) {
                     use = match(s, p, i - 1, j, dp);
                 }
-                return dp[i][j] = skip || use; // skip || move
+                return dp[i][j] = skip || use; // skip || use
 
             } else {
                 return dp[i][j] = false;
