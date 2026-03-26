@@ -1,5 +1,3 @@
-package Leetcode_003_March_2026;
-
 public class Substring_Matching_Pattern_Leetcode_3407 {
     class Solution {
         public boolean hasMatch(String s, String p) {
