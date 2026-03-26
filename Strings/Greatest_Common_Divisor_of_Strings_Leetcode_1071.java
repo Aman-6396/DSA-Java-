@@ -1,5 +1,3 @@
-package Leetcode_003_March_2026;
-
 public class Greatest_Common_Divisor_of_Strings_Leetcode_1071 {
     class Solution {
         public String gcdOfStrings(String str1, String str2) {
