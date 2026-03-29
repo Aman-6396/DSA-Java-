@@ -1,11 +1,9 @@
-package Leetcode_003_March_2026;
-
 public class Maximal_Square_Leetcode_221 {
     class Solution {
         public int maximalSquare(char[][] matrix) {
 
             int[][] dp = new int[matrix.length][matrix[0].length];
-            int maxLength = Integer.MIN_VALUE;
+            int maxLength = 0;
 
             for (int r = 0; r < matrix.length; r++) {
                 for (int c = 0; c < matrix[0].length; c++) {
