@@ -1,4 +1,4 @@
-public class Best_Time_to_Buy_and_Sell_Stock_IV_Leetcode {
+public class Best_Time_to_Buy_and_Sell_Stock_IV_Leetcode_188 {
     class Solution {
         public int maxProfit(int k, int[] prices) {
             Integer[][][] dp = new Integer[prices.length][2][k];
