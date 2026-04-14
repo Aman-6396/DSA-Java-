@@ -1,5 +1,3 @@
-package Leetcode_004_April_2026;
-
 public class Jump_Game_II_Leetcode_45 {
     // My Approach
     // class Solution {
