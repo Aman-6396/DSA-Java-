@@ -1,5 +1,3 @@
-package Leetcode_004_April_2026;
-
 public class Furthest_Point_From_Origin_Leetcode_2833 {
     class Solution {
         public int furthestDistanceFromOrigin(String moves) {
