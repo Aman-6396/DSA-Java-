@@ -1,5 +1,3 @@
-package Leetcode_004_April_2026;
-
 public class Minimum_Absolute_Difference_Between_Two_Values_Leetcode_3880 {
     class Solution {
         public int minAbsoluteDifference(int[] nums) {
