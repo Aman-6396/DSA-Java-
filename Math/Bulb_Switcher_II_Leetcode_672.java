@@ -1,0 +1,26 @@
+public class Bulb_Switcher_II_Leetcode_672 {
+    class Solution {
+        public int flipLights(int n, int presses) {
+            if (presses == 0) {
+                return 1;
+            }
+            if (n == 1) {
+                return 2;
+            } else if (n == 2) {
+                if (presses == 1) {
+                    return 3;
+                } else {
+                    return 4;
+                }
+            } else { // n >= 3
+                if (presses == 1) {
+                    return 4;
+                } else if (presses == 2) {
+                    return 7;
+                } else { // presses >= 3
+                    return 8;
+                }
+            }
+        }
+    }
+}
