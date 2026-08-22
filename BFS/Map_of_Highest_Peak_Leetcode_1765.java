@@ -1,5 +1,3 @@
-package Leetcode_008_August_2026;
-
 import java.util.LinkedList;
 import java.util.Queue;
 
