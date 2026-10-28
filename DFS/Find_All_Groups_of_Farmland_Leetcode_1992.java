@@ -1,5 +1,3 @@
-package Leetcode_010_October_2026;
-
 import java.util.ArrayList;
 import java.util.List;
 
